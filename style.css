@@ -1,0 +1,53 @@
+.pai{
+    width: 50vw;
+    height: 20vh;
+    list-style: none; 
+    overflow-y: auto;
+
+}
+
+.pai li:first-child{
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.capitulo{
+    position:sticky;
+    font-weight: medium;
+    font-size: medium;
+    background-color: lightgray;
+
+    top:0;
+
+}
+
+.informativo{
+    position:static;
+    width: 50vw;
+
+}
+
+.card{
+    width:10vw;
+    height:10vh;
+}
+
+.front{
+    width: 10vw;
+    height: 10vh;
+    background-color:lightgray;
+    z-index: 1;
+}
+
+.background{
+    background-color: gray;
+    position: relative;
+
+    width:10vw;
+    height:10vh;
+
+    top:10px;
+    left:10px;
+
+}
